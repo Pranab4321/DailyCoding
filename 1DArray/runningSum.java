@@ -9,5 +9,10 @@ class runningSum{
             sum += nums[i];
             newArr[i] = sum;
         }
+
+        for(int i=0; i< nums.length; i++){
+            System.out.print(newArr[i]+" ");
+        }
+
     }
 }
